@@ -31,31 +31,40 @@
         }
 
         .tool {
-            width: 250px;
-            height: 200px;
+            width: 300px;
             margin: 20px;
             padding: 20px;
             border-radius: 10px;
+            background-color: #ffffff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            font-size: 18px;
-            color: white;
+            text-align: left;
         }
 
         .aws {
-            background-color: #ff9900;
+            border: 2px solid #ff9900;
         }
 
         .gcp {
-            background-color: #4caf50;
+            border: 2px solid #33cc33;
         }
 
         .azure {
-            background-color: #007bff;
+            border: 2px solid #0077cc;
+        }
+
+        .tool h2 {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .tool ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tool ul li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -64,67 +73,43 @@
     <h1>Data Visualization & Analytical Tools</h1>
 
     <div class="tool-container">
-        <div class="tool aws">
-            <h2>AWS Tools</h2>
-            <p>Amazon QuickSight</p>
-            <p>Amazon Redshift</p>
-            <p>AWS Glue</p>
-        </div>
+
+         <div class="tool aws">
+            <h2>AWS</h2>
+            <p><strong>Amazon QuickSight:</strong> 
+                <li>Managed business intelligence (BI) service.</li>
+                <li>Allows creation of interactive dashboards and reports.</li>
+                <li>Seamless integration with various AWS data sources.</li></p>
+            </div>
 
         <div class="tool aws">
-            <h2>AWS Tools</h2>
-            <p>Amazon QuickSight</p>
-            <p>Amazon Redshift</p>
-            <p>AWS Glue</p>
-        </div>
+            <h2>AWS</h2>
+            <p><strong>Amazon Redshift:</strong> 
+                <li>Fully managed data warehouse service.</li>
+                <li>Ideal for analytical queries on large datasets.</li>
+                <li>Integrates with popular BI and data visualization tools.</li></p>
+            </div>
 
         <div class="tool aws">
-            <h2>AWS Tools</h2>
-            <p>Amazon QuickSight</p>
-            <p>Amazon Redshift</p>
-            <p>AWS Glue</p>
-        </div>
+            <h2>AWS</h2>
+            <p><strong>AWS Glue:</strong> 
+                <li>ETL (Extract, Transform, Load) service.</li>
+                <li>Automatically discovers, catalogs, and moves data.</li>
+                <li>Prepares data for analytics with a serverless, fully managed extract, transform, and load (ETL) service.</li></p>
+            </div>
 
         <div class="tool gcp">
-            <h2>GCP Tools</h2>
-            <p>Google Data Studio</p>
-            <p>BigQuery</p>
-            <p>Cloud Dataflow</p>
-        </div>
-
-        <div class="tool gcp">
-            <h2>GCP Tools</h2>
-            <p>Google Data Studio</p>
-            <p>BigQuery</p>
-            <p>Cloud Dataflow</p>
-        </div>
-
-        <div class="tool gcp">
-            <h2>GCP Tools</h2>
-            <p>Google Data Studio</p>
-            <p>BigQuery</p>
-            <p>Cloud Dataflow</p>
+            <h2>GCP</h2>
+            <p><strong>Google Data Studio:</strong> Free tool for customizable and shareable data dashboards.</p>
+            <p><strong>BigQuery:</strong> Serverless, scalable data warehouse supporting real-time analytics and integration with machine learning services.</p>
+            <p><strong>Cloud Dataflow:</strong> Managed service for stream and batch processing.</p>
         </div>
 
         <div class="tool azure">
-            <h2>Azure Tools</h2>
-            <p>Power BI</p>
-            <p>Azure Synapse Analytics</p>
-            <p>Azure Stream Analytics</p>
-        </div>
-
-        <div class="tool azure">
-            <h2>Azure Tools</h2>
-            <p>Power BI</p>
-            <p>Azure Synapse Analytics</p>
-            <p>Azure Stream Analytics</p>
-        </div>
-
-        <div class="tool azure">
-            <h2>Azure Tools</h2>
-            <p>Power BI</p>
-            <p>Azure Synapse Analytics</p>
-            <p>Azure Stream Analytics</p>
+            <h2>Azure</h2>
+            <p><strong>Power BI:</strong> Data visualization and business analytics tool for interactive reports. It integrates with a wide range of data sources, both on-premises and in the cloud.</p>
+            <p><strong>Azure Synapse Analytics:</strong> Unified analytics service integrating big data and data warehousing. Supports both on-demand and provisioned resources for analytics.</p>
+            <p><strong>Azure Stream Analytics:</strong> Real-time analytics service for processing streaming data, enabling real-time insights and actions based on the data.</p>
         </div>
     </div>
 </body>
