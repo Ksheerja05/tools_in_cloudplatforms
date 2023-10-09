@@ -34,10 +34,22 @@
             width: 300px;
             margin: 20px;
             padding: 20px;
-            border: 1px solid #007bff;
             border-radius: 10px;
             background-color: #ffffff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .aws {
+            border: 2px solid #ff9900;
+        }
+
+        .gcp {
+            border: 2px solid #33cc33;
+        }
+
+        .azure {
+            border: 2px solid #0077cc;
         }
 
         .tool h2 {
@@ -61,31 +73,23 @@
     <h1>Data Visualization & Analytical Tools</h1>
 
     <div class="tool-container">
-        <div class="tool">
+        <div class="tool aws">
             <h2>AWS</h2>
-            <ul>
-                <li><strong>Amazon QuickSight:</strong> Managed BI service for interactive dashboards and reports.</li>
-                <li><strong>Amazon Redshift:</strong> Fully managed data warehouse for analytical queries on large datasets.</li>
-                <li><strong>AWS Glue:</strong> ETL service for data discovery, cataloging, and preparation.</li>
-            </ul>
+            <p><strong>Amazon QuickSight:</strong> Managed BI service for interactive dashboards and reports. It enables seamless integration with various AWS data sources.</p>
         </div>
 
-        <div class="tool">
+        <div class="tool gcp">
             <h2>GCP</h2>
-            <ul>
-                <li><strong>Google Data Studio:</strong> Free tool for customizable and shareable data dashboards.</li>
-                <li><strong>BigQuery:</strong> Serverless, scalable data warehouse supporting real-time analytics.</li>
-                <li><strong>Cloud Dataflow:</strong> Managed service for stream and batch processing.</li>
-            </ul>
+            <p><strong>Google Data Studio:</strong> Free tool for customizable and shareable data dashboards.</p>
+            <p><strong>BigQuery:</strong> Serverless, scalable data warehouse supporting real-time analytics and integration with machine learning services.</p>
+            <p><strong>Cloud Dataflow:</strong> Managed service for stream and batch processing.</p>
         </div>
 
-        <div class="tool">
+        <div class="tool azure">
             <h2>Azure</h2>
-            <ul>
-                <li><strong>Power BI:</strong> Data visualization and business analytics tool for interactive reports.</li>
-                <li><strong>Azure Synapse Analytics:</strong> Unified analytics service integrating big data and data warehousing.</li>
-                <li><strong>Azure Stream Analytics:</strong> Real-time analytics service for processing streaming data.</li>
-            </ul>
+            <p><strong>Power BI:</strong> Data visualization and business analytics tool for interactive reports. It integrates with a wide range of data sources, both on-premises and in the cloud.</p>
+            <p><strong>Azure Synapse Analytics:</strong> Unified analytics service integrating big data and data warehousing. Supports both on-demand and provisioned resources for analytics.</p>
+            <p><strong>Azure Stream Analytics:</strong> Real-time analytics service for processing streaming data, enabling real-time insights and actions based on the data.</p>
         </div>
     </div>
 </body>
